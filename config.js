@@ -4,25 +4,25 @@ const config = {
     "city": "Oxford Station",
     "cityStateZip": "Oxford Station, ON K0G 1T0",
     "heroSubtitle": "Side Split Level | 3+1 Beds | 2 Baths | $799,900. Branded media link available. Please contact for property listing, floor plan, comparables, and virtual tour links.",
-    "backgroundImageUrl": "https://api.typeform.com/responses/files/8b79e0ea16e838c1412b4fbeb32e15dc1fb7a4c68d07f686de92838c51bc1e66/Untitled_design__9_.png"
+    "backgroundImageUrl": "https://i.ibb.co/4ZkjxvYh/f82d9887a00c-2-web-or-mls-DSC00257.jpg"
   },
   "realtor": {
     "fullName": "Driscoll-Peca Team",
     "title": "REALTOR®",
-    "phone": null,
+    "phone": "",
     "email": "ryan@driscollpeca.com",
     "bio": "",
-    "photoUrl": null,
+    "photoUrl": "",
     "social": {
       "facebook": "https://www.facebook.com/driscollpecateam",
       "instagram": "https://instagram.com/ae.parks",
-      "website": null
+      "website": ""
     }
   },
   "brokerage": {
     "name": "Real Broker LTD",
-    "logoUrl": null,
-    "address": "218 Brant Avenue\nBrantford ON N3T 3H9"
+    "logoUrl": "",
+    "address": "218 Brant AvenueBrantford ON N3T 3H9"
   },
   "openHouse": {
     "eventDate": "2025-10-05",
@@ -54,36 +54,72 @@ const config = {
       "id": "agent_status",
       "questionText": "Are you currently exploring homes with a real estate agent?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
       ]
     },
     {
       "id": "interest_level",
       "questionText": "How interested are you in properties like this?",
       "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
+        {
+          "value": "very_interested",
+          "text": "Very interested, actively looking."
+        },
+        {
+          "value": "somewhat_interested",
+          "text": "Somewhat interested, keeping options open."
+        },
+        {
+          "value": "just_browsing",
+          "text": "Just browsing for now."
+        }
       ]
     },
     {
       "id": "neighborhood_engagement",
       "questionText": "How do you usually enjoy the neighborhood?",
       "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
+        {
+          "value": "resident_explorer",
+          "text": "I live here and love exploring locally."
+        },
+        {
+          "value": "considering_move",
+          "text": "I'm considering moving to this area."
+        },
+        {
+          "value": "just_visiting",
+          "text": "Just visiting for the open house."
+        }
       ]
     },
     {
       "id": "feature_attraction",
       "questionText": "What feature attracted you to this home?",
       "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
+        {
+          "value": "design_layout",
+          "text": "The design and layout."
+        },
+        {
+          "value": "location_neighborhood",
+          "text": "The location and neighborhood."
+        },
+        {
+          "value": "home_price",
+          "text": "The price of the home."
+        }
       ]
     }
   ],
@@ -91,7 +127,7 @@ const config = {
     "repoName": "Open-House-3",
     "repoUrl": "https://github.com/arslvn93/Open-House-3",
     "tag": "Open House 18 Smith Road",
-    "netlifyUrl": null,
+    "netlifyUrl": "",
     "siteId": "3ae7651e-474c-47dc-baa1-05c080533c35"
   }
-}
+};
